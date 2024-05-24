@@ -1,4 +1,10 @@
 def bubbleSort(list):
+    """
+    Funkcja sortuje listę algorytmem sortowania bąbelkowego w sposób rosnący
+    :param list: lista nieposortowanych elementów
+    :author: Hanna Górecka
+    Wspomogłam się algorymem sortowania bąbelkowego z: https://www.javaguides.net/2022/11/bubble-sort-algorithm-in-kotlin.html
+    """
     n = len(list)
     for i in range(0, n - 1):
         for j in range(0, n - i - 1):
@@ -9,6 +15,16 @@ def bubbleSort(list):
 
 
 def switchToNext(list, i, max):
+    """
+    Funkcja zwraca indeks, na którym w podanej liście znajduje się następny element o innej wartości niż początkowa
+    :param list: lista, której elementy sprawdzamy
+    :param i: początkowy indeks
+    :param max: maksymalny indeks
+    :return: indeks nastepnego elementu o innej wartości
+    :raise: ValueError jeśli iterator jest ujemny lub większy od maksymalnego indeksu
+    :raise: ValueError jeśli maksymalny indeks jest ujemny
+    :author: Hanna Górecka
+    """
     if i < 0:
         raise ValueError("Niepoprawny iterator")
     if i > max:
@@ -23,6 +39,13 @@ def switchToNext(list, i, max):
 
 
 def shared(list1, list2):
+    """
+     Funkcja zwraca listę wspólnych elementów z dwóch podanych jako argumenty list
+    :param list1: pierwsza lista
+    :param list2: druga lista
+    :return: listę wspólnych elementów
+    :author: Hanna Górecka
+    """
     bubbleSort(list1)
     bubbleSort(list2)
     n = len(list1)
@@ -45,6 +68,3 @@ def shared(list1, list2):
     return list3
 
 
-list1 = [1, 2]
-list2 = [2, 1]
-print(shared(list2, list1))
