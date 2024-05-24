@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0bf2447-74d3-4c58-9cee-7ec809ab442c" name="Changes" comment="Heron - tests added">
-      <change afterPath="$PROJECT_DIR$/Zadanie_2_Czesc_Wspolna.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_Zadanie_2_Czesc_Wspolna.py" afterDir="false" />
+    <list default="true" id="b0bf2447-74d3-4c58-9cee-7ec809ab442c" name="Changes" comment="Zadanie 2 - dodano testy">
+      <change afterPath="$PROJECT_DIR$/Zadanie_3_Podzbiory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadanie_4_Fibbonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_Zadanie_3_Podzbiory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +49,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_Zadanie_1_Heron.Test.test_heron.executor": "Run",
+    "Python tests.Python tests for test_Zadanie_2_Czesc_Wspolna.Test.executor": "Run",
     "Python tests.Python tests for test_Zadanie_2_Czesc_Wspolna.Test.test_shared.executor": "Run",
     "Python.Zadanie_1_Heron.executor": "Run",
     "Python.Zadanie_2_Czesc_Wspolna.executor": "Run",
+    "Python.Zadanie_3_Podzbiory.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Zadanie_2_Czesc_Wspolna.Test">
+  <component name="RunManager" selected="Python.Zadanie_3_Podzbiory">
     <configuration name="Zadanie_2_Czesc_Wspolna" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lista1_Python" />
       <option name="ENV_FILES" value="" />
@@ -70,6 +73,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadanie_2_Czesc_Wspolna.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Zadanie_3_Podzbiory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lista1_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadanie_3_Podzbiory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Zadanie_3_Podzbiory" />
         <item itemvalue="Python tests.Python tests for test_Zadanie_2_Czesc_Wspolna.Test" />
         <item itemvalue="Python.Zadanie_2_Czesc_Wspolna" />
         <item itemvalue="Python tests.Python tests for test_Zadanie_2_Czesc_Wspolna.Test.test_shared" />
@@ -156,11 +182,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716562496636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Zadanie 2 - dodano testy">
+      <option name="closed" value="true" />
+      <created>1716569486195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716569486195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Heron - tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heron - tests added" />
+    <MESSAGE value="Zadanie 2 - dodano testy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2 - dodano testy" />
   </component>
 </project>
