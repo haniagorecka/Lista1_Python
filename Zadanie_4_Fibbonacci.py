@@ -1,4 +1,11 @@
 def fibo (n):
+    """
+    Funkcja zwraca n-elementowy ciąg fibonacciego z wykorzystaniem iteracji
+    :author: Hanna Górecka
+    :param n:długość ciągu
+    :return:listę elementów ciągu
+    :raise: ValueError jeśli argument jest mniejszy niż 0
+    """
     if n<0:
         raise ValueError("Bledny argument, argument nie moze byc ujemny")
     i = 2
@@ -18,6 +25,14 @@ def fibo (n):
 
 
 def fiboRec(n):
+    """
+    Funkcja zwraca n-elementowy ciąg fibonacciego z wykorzystaniem rekurencji
+    :author:Hanna Górecka
+    :param n:długość ciągu
+    :return:listę elementów ciągu
+    :raise: ValueError jeśli argument jest mniejszy niż 0
+    Wspomogłam się algorytmem rekurencyjnym przedstawionym w źródle: https://stackoverflow.com/questions/68426233/correct-way-to-return-list-of-fibonacci-sequence-using-recursion
+    """
     if n < 0:
         raise ValueError("Bledny argument, argument nie moze byc ujemny")
     if n==1:
