@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0bf2447-74d3-4c58-9cee-7ec809ab442c" name="Changes" comment="Zadanie 4">
-      <change afterPath="$PROJECT_DIR$/test_Zadanie_4_Fibbonacci.py" afterDir="false" />
+    <list default="true" id="b0bf2447-74d3-4c58-9cee-7ec809ab442c" name="Changes" comment="Tests added, errors fixed">
+      <change afterPath="$PROJECT_DIR$/test_Zadanie_5_Collatz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_Zadanie_6_DNA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie_1_Heron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie_1_Heron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie_2_Czesc_Wspolna.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie_2_Czesc_Wspolna.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie_3_Podzbiory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie_3_Podzbiory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_Zadanie_1_Heron.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Zadanie_1_Heron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_Zadanie_2_Czesc_Wspolna.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Zadanie_2_Czesc_Wspolna.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_Zadanie_3_Podzbiory.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Zadanie_3_Podzbiory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie_4_Fibbonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie_4_Fibbonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie_5_Collatz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie_5_Collatz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie_6_DNA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie_6_DNA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_Zadanie_4_Fibbonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Zadanie_4_Fibbonacci.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,11 @@
     "Python tests.Python tests for test_Zadanie_3_Podzbiory.Test.test_all_binary.executor": "Run",
     "Python tests.Python tests for test_Zadanie_3_Podzbiory.Test.test_subsets.executor": "Run",
     "Python tests.Python tests for test_Zadanie_4_Fibbonacci.Test.executor": "Run",
+    "Python tests.Python tests for test_Zadanie_4_Fibbonacci.Test.test_fibo.executor": "Run",
+    "Python tests.Python tests for test_Zadanie_5_Collatz.Test.test_collatz.executor": "Run",
+    "Python tests.Python tests for test_Zadanie_6_DNA.Test.test_komplement.executor": "Run",
+    "Python tests.Python tests for test_Zadanie_6_DNA.Test.test_transkrybuj.executor": "Run",
+    "Python tests.Python tests for test_Zadanie_6_DNA.Test.test_transluj.executor": "Run",
     "Python.Zadanie_1_Heron.executor": "Run",
     "Python.Zadanie_2_Czesc_Wspolna.executor": "Run",
     "Python.Zadanie_3_Podzbiory.executor": "Run",
@@ -70,8 +74,8 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Zadanie_4_Fibbonacci.Test">
-    <configuration name="Zadanie_3_Podzbiory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Zadanie_6_DNA.Test.test_transkrybuj">
+    <configuration name="Zadanie_6_DNA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lista1_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadanie_3_Podzbiory.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadanie_6_DNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Zadanie_2_Czesc_Wspolna.Test.test_switchToNext" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Zadanie_5_Collatz.Test.test_collatz" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lista1_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,11 +108,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Zadanie_2_Czesc_Wspolna.Test.test_switchToNext&quot;" />
+      <option name="_new_target" value="&quot;test_Zadanie_5_Collatz.Test.test_collatz&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Zadanie_3_Podzbiory.Test.test_all_binary" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Zadanie_6_DNA.Test.test_komplement" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lista1_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,11 +123,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Zadanie_3_Podzbiory.Test.test_all_binary&quot;" />
+      <option name="_new_target" value="&quot;test_Zadanie_6_DNA.Test.test_komplement&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Zadanie_3_Podzbiory.Test.test_subsets" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Zadanie_6_DNA.Test.test_transkrybuj" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lista1_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,11 +138,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Zadanie_3_Podzbiory.Test.test_subsets&quot;" />
+      <option name="_new_target" value="&quot;test_Zadanie_6_DNA.Test.test_transkrybuj&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Zadanie_4_Fibbonacci.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Zadanie_6_DNA.Test.test_transluj" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lista1_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,17 +153,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Zadanie_4_Fibbonacci.Test&quot;" />
+      <option name="_new_target" value="&quot;test_Zadanie_6_DNA.Test.test_transluj&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Zadanie_4_Fibbonacci.Test" />
-        <item itemvalue="Python tests.Python tests for test_Zadanie_3_Podzbiory.Test.test_subsets" />
-        <item itemvalue="Python tests.Python tests for test_Zadanie_3_Podzbiory.Test.test_all_binary" />
-        <item itemvalue="Python.Zadanie_3_Podzbiory" />
-        <item itemvalue="Python tests.Python tests for test_Zadanie_2_Czesc_Wspolna.Test.test_switchToNext" />
+        <item itemvalue="Python tests.Python tests for test_Zadanie_6_DNA.Test.test_transkrybuj" />
+        <item itemvalue="Python.Zadanie_6_DNA" />
+        <item itemvalue="Python tests.Python tests for test_Zadanie_6_DNA.Test.test_transluj" />
+        <item itemvalue="Python tests.Python tests for test_Zadanie_6_DNA.Test.test_komplement" />
+        <item itemvalue="Python tests.Python tests for test_Zadanie_5_Collatz.Test.test_collatz" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716581346188</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tests added, errors fixed">
+      <option name="closed" value="true" />
+      <created>1716721827503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716721827503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +231,7 @@
     <MESSAGE value="Zadanie 2 - dodano testy" />
     <MESSAGE value="Zadanie 3" />
     <MESSAGE value="Zadanie 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 4" />
+    <MESSAGE value="Tests added, errors fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests added, errors fixed" />
   </component>
 </project>

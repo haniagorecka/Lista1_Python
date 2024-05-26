@@ -10,10 +10,14 @@ class Test(TestCase):
                          "Blad testu funkcji rekurencyjnej ciagu fibonacciego 1")
         with self.assertRaises(ValueError):
             fiboRec(-9)
+        with self.assertRaises(TypeError):
+            fiboRec(1.8)
 
     def test_fibo(self):
         self.assertEqual(fibo(4), [0, 1, 1, 2], "Blad testu funkcji iteracyjnej ciagu fibonacciego")
         self.assertEqual(fibo(9), [0, 1, 1, 2, 3, 5, 8, 13, 21],
                          "Blad testu funkcji iteracyjnej ciagu fibonacciego 1")
         with self.assertRaises(ValueError):
-            fiboRec(-10)
+            fibo(-10)
+        with self.assertRaises(TypeError):
+            fibo(1.2)

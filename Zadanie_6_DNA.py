@@ -9,6 +9,8 @@ def komplement(kodujaca):
     """
     if not kodujaca:
         raise ValueError("Nic kodujaca jest pusta")
+    if type(kodujaca)!=str:
+        raise TypeError("Argument musi byc typu String")
     komplementarna = ""
     for el in kodujaca.upper():
         match el:
@@ -35,6 +37,8 @@ def transkrybuj(matrycowa):
     """
     if not matrycowa:
         raise ValueError("Nic matrycowa jest pusta")
+    if type(matrycowa)!=str:
+        raise TypeError("Argument musi byc typu String")
     transkrybowana = ""
     for el in matrycowa.upper():
         match el:
@@ -62,6 +66,8 @@ def transluj(rna):
     """
     if not rna:
         raise ValueError("Nic RNA jest pusta")
+    if type(rna)!=str:
+        raise TypeError("Argument musi byc typu String")
     slownikAminokwasow = {
         "UUU": "Phe", "UUC": "Phe", "UUA": "Leu", "UUG": "Leu",
         "CUU": "Leu", "CUC": "Leu", "CUA": "Leu", "CUG": "Leu",
@@ -86,6 +92,7 @@ def transluj(rna):
         temp = rna.upper()[i:i+3]
         if temp in slownikAminokwasow.keys():
             if slownikAminokwasow.get(temp) == "Stop":
+                aminokwasy += " "
                 break
             else:
                 aminokwasy += slownikAminokwasow.get(temp)

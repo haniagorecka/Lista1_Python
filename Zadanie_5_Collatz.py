@@ -9,6 +9,8 @@ def collatz(c0):
     """
     if c0<=0:
         raise ValueError("Bledny pierwszy element ciagu")
+    if type(c0) != int:
+        raise TypeError("Bledny pierwszy element ciagu, argument musi byc liczba calkowita")
     c1 = c0
     list = []
     while c1!=4:
@@ -19,6 +21,12 @@ def collatz(c0):
             list.append(c1)
             c1 = int(3 * c1 + 1)
     return list
+
+
+print(len(collatz(297865392390309892730235140257))) #proba znalezienia dlugiego ciagu z wykrozystaniem dlugiej liczby pierwszej
+print(len(collatz(15367811332138757659234564923420073))) #proba znalezienia dlugiego ciagu z wykrozystaniem dlugiej liczby pierwszej, mimo ze liczba jest dluzsza to ciag jest krotszy
+print(len(collatz(1701651500000000000000000000000000000))) #proba znalezienia dlugiego ciagu z wykrozystaniem dlugiej liczby parzystej
+#nie udalo sie znalesc nieskonczonego ciagu, najdluzszy znaleziony ciag mial 558 wyrazow
 
 
 
