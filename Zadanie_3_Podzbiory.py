@@ -1,3 +1,4 @@
+
 def allBinary(n, list, i, arr):
     """
     Funkcja rekurencyjnie dodaje listę wszystkich liczb binarnych o długości n do listy list
@@ -44,10 +45,8 @@ def subsets(list):
     for k in range(0, len(binary)):
         temp = []
         for j in range(0, len(binary[k])):
-            if binary[k][j]==1:
+            if binary[k][j] == 1:
                 temp.append(list[j])
         subsets.append(temp)
     return subsets
-
-
 
